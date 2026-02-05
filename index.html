@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/app-icon2.ico" type="image/x-icon">
+    <title>Liora</title>
+</head>
+<body>
+    <form class="cuestionario"> <h1>Liora</h1>
+        <div class="contenedor-principal">
+            <img src="img/Liorafeliz.png" class="liara">
+            <div class="cubo">
+                <h3>¡Hola! Soy Liora, tu asistente de finanzas</h3><br>
+                <h5 class="subtitulo">Para empezar, ¿cómo prefieres que te llame?</h5>
+                <input type="text" class="txt" id="nombre_usuario"><br>
+                
+                <h5 class="subtitulo">¿Cómo te sientes hoy respecto a tus finanzas personales?</h5>
+                <div class="opcion-radio">
+                    <input type="radio" name="sentimiento" id="sentimiento1" value="ansioso">
+                    <label for="sentimiento1">Ansioso/Perdido</label>
+                </div>
+                <div class="opcion-radio">
+                    <input type="radio" name="sentimiento" id="sentimiento2" value="neutral">
+                    <label for="sentimiento2">Curioso/Neutral</label>
+                </div>
+                <div class="opcion-radio">
+                    <input type="radio" name="sentimiento" id="sentimiento3" value="optimista">
+                    <label for="sentimiento3">En control/Optimista</label>
+                </div>
+                <br>  
+                <h5 class="subtitulo">¿Cuál es tu principal objetivo financiero ahora mismo?</h5>
+                <div class="opcion-radio">
+                    <input type="radio" name="objetivo" id="objetivo1" value="entender tu vida financiera">
+                    <label for="objetivo1">Entender en qué gasto mi dinero</label>
+                </div>
+                <div class="opcion-radio">
+                    <input type="radio" name="objetivo" id="objetivo2" value="ahorrar">
+                    <label for="objetivo2">Empezar a ahorrar</label>
+                </div>
+                <div class="opcion-radio">
+                    <input type="radio" name="objetivo" id="objetivo3" value="Pagar una deuda">
+                    <label for="objetivo3">Pagar una deuda</label>
+                </div>
+                <br>
+
+                <h5 class="subtitulo">¿Cuáles son tus ingresos mensuales (aproximados)?</h5>
+                <input type="number" class="nm" id="ingresos"><br> <h5 class="subtitulo">¿Cuáles son tus gastos fijos mensuales (aproximados)?</h5>
+                <input type="number" class="nm" id="gastos"><br>
+                
+                <input type="submit" class="send" value="Guardar"> </div>
+        </div>
+    </form> 
+    <script src="main.js"></script> 
+</body>
+</html>
