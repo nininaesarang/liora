@@ -25,3 +25,40 @@ Este proyecto fue desarrollado íntegramente con tecnologías web estándar, enf
 1.  Clona este repositorio.
 2.  Abre el archivo `index.html` en tu navegador web de preferencia.
 3.  ¡Comienza a interactuar con Liora!
+
+
+# 🤖 Liora - Financial Assistance Chatbot
+
+**Liora** is an interactive virtual assistant developed during **HackMTY 2025** as a technological solution for the challenge proposed by **Capital One**. Its main mission is to democratize financial education, helping users understand key concepts and manage their personal finances in a simple and user-friendly way.
+
+## 🎯 Project Objective
+To facilitate the understanding of personal finance through a conversational interface that guides the user, reducing the barrier to entry into the financial world and promoting healthy money management habits.
+
+## 💻 Technical Specifications
+This project was developed entirely with standard web technologies, focusing on a lightweight and functional architecture:
+
+* **Frontend:**
+
+* **HTML5:** Semantic structuring of chat content.
+
+* **CSS3:** Design of a modern, clean, and responsive interface to improve the user experience (UX). * **Chatbot Logic (JavaScript ES6+):**
+
+* The core of the simplified natural language processing was built using pure JavaScript.
+
+* **Flow Control:** Implementation of `switch` structures to efficiently handle different user intents and direct the flow of the conversation.
+
+* **Data Processing:** Use of `for` loops to iterate over response options and validate dynamic data inputs during the interaction.
+
+## 🚀 Main Features
+* **Guided Interaction:** The chatbot offers predefined responses and learning paths based on user queries.
+
+* **Intuitive Interface:** Visual design focused on clarity, mimicking visual novel video games to reduce the learning curve.
+
+* **Conditional Logic:** Ability to adapt responses based on the conversation context using structured programming logic.
+
+## 🛠️ Installation and Use
+1. Clone this repository.
+
+2. Open the `index.html` file in your preferred web browser.
+
+3. Start interacting with Liora!
